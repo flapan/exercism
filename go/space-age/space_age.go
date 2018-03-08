@@ -1,6 +1,7 @@
 // Package space contains a solution to the space age Exercism exercise
 package space
 
+// Planet is a type to represent a planets name
 type Planet string
 
 const earthYearInseconds = 31557600
