@@ -2,7 +2,9 @@
 package twofer
 
 // ShareWith inspects the input string, and returns the appropriate twofer string
-func ShareWith(string) string {
-
-	return ""
+func ShareWith(name string) string {
+	if name == "" {
+		return "One for you, one for me."
+	}
+	return "One for " + name + ", one for me."
 }
